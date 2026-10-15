@@ -1,0 +1,65 @@
+{
+  "id": "./",
+  "name": "SkyNexa",
+  "short_name": "SkyNexa",
+  "lang": "en-US",
+  "dir": "ltr",
+  "description": "Build Tomorrow. Bring It to Life. A detailed city and village simulation with working residents, traffic, animals and a living economy.",
+  "start_url": "./index.html?source=installed",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#091b22",
+  "theme_color": "#0c1f2b",
+  "categories": [
+    "games",
+    "simulation"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Build your city",
+      "short_name": "Build",
+      "description": "Open construction tools in your saved city.",
+      "url": "./index.html?panel=build",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "City statistics",
+      "short_name": "Statistics",
+      "description": "Inspect population, services and the city budget.",
+      "url": "./index.html?panel=stats"
+    },
+    {
+      "name": "Saves and backups",
+      "short_name": "Backups",
+      "description": "Save, load or export a city backup.",
+      "url": "./index.html?panel=saves"
+    }
+  ]
+}
